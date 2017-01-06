@@ -15,14 +15,14 @@ Author: JonLuca
 Name: Apple Music Unleashed
 
 Package: com.jonluca.masterrepoeasyinstall
-Version: 1.1
+Version: 1.3
 Architecture: iphoneos-arm
 Maintainer: JonLuca De Caro
-Filename: .//debs/com.jonluca.masterrepoeasyinstall_1.1_iphoneos-arm.deb
-Size: 2306
-MD5sum: dbec4aea4ce77c6b72485e4f8b0a6d06
-SHA1: a230b51d9da3efdb7cdc7b18ad39c45c4f69334a
-SHA256: 80c4750f4a400e2ccf8cd61b28a78bcae84924516941f612f8d12d052fb63b58
+Filename: .//debs/com.jonluca.masterrepoeasyinstall_1.3_iphoneos-arm.deb
+Size: 2264
+MD5sum: 2a833723645d78c7dad0518437593033
+SHA1: b1bf5fe2a89bcf13e8ec55816417703cdec89b8b
+SHA256: 2195bf18443fcce40a51d4110d8f6bfb258e0dfc53860fd644bdb95e31d08c63
 Section: System
 Description: Easy install for MasterRepo.list
 Author: JonLuca De Caro
