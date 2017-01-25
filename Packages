@@ -28,6 +28,20 @@ Description: Easy install for MasterRepo.list
 Author: JonLuca De Caro
 Name: MasterRepoEasyInstall
 
+Package: com.jonluca.masterrepoeasyinstall
+Version: 1.4
+Architecture: iphoneos-arm
+Maintainer: JonLuca De Caro
+Filename: .//debs/com.jonluca.masterrepoeasyinstall_1.4_iphoneos-arm.deb
+Size: 2264
+MD5sum: 93bcd0992999b0ad2083e44a9d53b331
+SHA1: f0492f8cf99438f8ec381cf7439b6f57b6cd239d
+SHA256: 28e082823b2f113eaf8ce5453e5768492206ad19708d39f215c7fae16a182808
+Section: System
+Description: Easy install for MasterRepo.list
+Author: JonLuca De Caro
+Name: MasterRepoEasyInstall
+
 Package: com.jonluca.matchbox
 Version: 1.1-1
 Architecture: iphoneos-arm
