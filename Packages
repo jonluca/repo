@@ -140,6 +140,20 @@ Description: Collection of popular repositories
 Author: JonLuca De Caro
 Name: MasterRepoEasyInstall
 
+Package: com.jonluca.masterrepoeasyinstall
+Version: 2.3
+Architecture: iphoneos-arm
+Maintainer: JonLuca De Caro
+Filename: debs//com.jonluca.masterrepoeasyinstall_2.3_iphoneos-arm.deb
+Size: 2296
+MD5sum: 4a41f2dd490916293827578a3610e349
+SHA1: 75eef2c41f9c09226e635406d05059c92d218e31
+SHA256: b178759716d06c8fcb230bf6eef6337f51c6ff65d8b0eda66bf0deb06273178b
+Section: System
+Description: Collection of popular repositories
+Author: JonLuca De Caro
+Name: MasterRepoEasyInstall
+
 Package: com.jonluca.matchbox
 Version: 1.1-1
 Architecture: iphoneos-arm
