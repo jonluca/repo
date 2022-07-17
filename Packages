@@ -1,3 +1,19 @@
+Package: com.evilpenguin.sslbypass
+Version: 1.0-5+debug
+Architecture: iphoneos-arm
+Maintainer: EvilPenguin
+Installed-Size: 220
+Depends: mobilesubstrate
+Filename: debs/com.evilpenguin.sslbypass_1.0-5+debug_iphoneos-arm.deb
+Size: 8640
+MD5sum: 654856df29113adb5e170922a9fee2b7
+SHA1: 524b6913dfd3d095686ba8b54c74778df30ccdc0
+SHA256: 5c80e9b1fa8311ddd87ee936090825cf3fee2d704b102ae74d39849b8eb599f7
+Section: Tweaks
+Description: SSLBypass will bypass SSL pinning from iOS 8 - 14
+Author: EvilPenguin
+Name: SSLBypass
+
 Package: com.jonluca.applemusicunleashed
 Version: 1.0-2
 Architecture: iphoneos-arm
@@ -154,86 +170,6 @@ Description: Collection of popular repositories
 Author: JonLuca De Caro
 Name: MasterRepoEasyInstall
 
-Package: com.jonluca.matchbox
-Version: 1.1-1
-Architecture: iphoneos-arm
-Maintainer: JonLuca
-Installed-Size: 72
-Depends: mobilesubstrate
-Filename: debs/com.jonluca.matchbox_1.1-1_iphoneos-arm.deb
-Size: 3302
-MD5sum: 856637c1bdb998cec1d7f6d8ebd887fe
-SHA1: 86cc7ea913bdd43abdbe1e2738bcb23e6939f3b4
-SHA256: 18cd4c6fa6955488811701fd192aa4573c7a6aaab4433237a1b280151f14eee2
-Section: Tweaks
-Description: Take control of Tinder!
-Author: JonLuca
-Name: Matchbox
-
-Package: com.jonluca.noappleradio
-Version: 1.0-1
-Architecture: iphoneos-arm
-Maintainer: JonLuca
-Installed-Size: 72
-Depends: mobilesubstrate, firmware (>= 8.4)
-Filename: debs/com.jonluca.noappleradio_1.0-1_iphoneos-arm.deb
-Size: 3010
-MD5sum: 4cdf2b31f5acba65770d5a2b1ef32a16
-SHA1: d98322fb4dde782b26015192e764338a45ee87a9
-SHA256: 39a820cee3f8eebdce8fd230c44dd13944cd573230b51d17a499109676530693
-Section: Tweaks
-Description: Simple tweak that removes Radio from Apple Music
-Author: JonLuca
-Name: NoAppleRadio
-
-Package: com.jonluca.nonosim
-Version: 1.0-1
-Architecture: iphoneos-arm
-Maintainer: JonLuca
-Installed-Size: 72
-Depends: mobilesubstrate
-Filename: debs/com.jonluca.nonosim_1.0-1_iphoneos-arm.deb
-Size: 3110
-MD5sum: 1e563b54cc8798e07f85ee15bf608f1e
-SHA1: 2ccd52bbd195c667d890bac4dd3b39d74f0334b8
-SHA256: ff52b2a7f0d2015548dd0a1ed9cd87955a6b9b836aefa495baec5b8d303d54a1
-Section: Tweaks
-Description: Suppress the "No Sim" alert
-Author: JonLuca
-Name: NoNoSim
-
-Package: com.jonluca.sclenses4all
-Version: 1.0-4
-Architecture: iphoneos-arm
-Maintainer: JonLuca De Caro
-Installed-Size: 104
-Depends: mobilesubstrate
-Filename: debs/com.jonluca.sclenses4all_1.0-4_iphoneos-arm.deb
-Size: 2992
-MD5sum: 8d17a74afc9fd386b058c341be42b2a9
-SHA1: 11222bcf046d6286915d1cce0045f552666025e7
-SHA256: ec69c33126ac6cadcf8872ab92414bbc06237d0834f058989cef667a5fa6edab
-Section: Tweaks
-Description: Enables Snapchat lenses on older devices
-Author: JonLuca De Caro
-Name: SCLenses4All
-
-Package: com.jonluca.snaptime
-Version: 1.0-1
-Architecture: iphoneos-arm
-Maintainer: JonLuca
-Installed-Size: 72
-Depends: mobilesubstrate
-Filename: debs/com.jonluca.snaptime_1.0-1_iphoneos-arm.deb
-Size: 3350
-MD5sum: 4655ff2883535cd50c9a71a65d143984
-SHA1: 3425b9c317044f010402debb3392293a476809a9
-SHA256: 800550048029ed734782ff1e63a5f061b70556187e1c8c9106c4a49dca52265a
-Section: Tweaks
-Description: Always show timestamps on Snaps and Stories!
-Author: JonLuca
-Name: SnapTime
-
 Package: com.jonluca.sslkillswitch2
 Version: 0.13-2+debug
 Architecture: iphoneos-arm
@@ -250,19 +186,90 @@ Description: Blackbox tool to disable SSL certificate validation - including cer
 Author: JonLuca DeCaro <jonluca.decaro@gmail.com>
 Name: SSL Kill Switch 2
 
-Package: com.jonluca.yakanywhere
-Version: 0.1b-1
+Package: com.jonluca.sslkillswitch2
+Version: 0.14-3+debug
 Architecture: iphoneos-arm
-Maintainer: Jonluca
-Installed-Size: 72
-Depends: mobilesubstrate
-Filename: debs/com.jonluca.yakanywhere_0.1b-1_iphoneos-arm.deb
-Size: 3588
-MD5sum: 3b9bfe4413ef097f6a2ddb57e2a54003
-SHA1: 9016e0d8f1e6c0bd40ffb8b101ed2d8573169370
-SHA256: 5ad8fa1362161e3af075892ad2c726ac736fe396d066412fb9fac68299e0f910
+Maintainer: JonLuca DeCaro <ssl@jonlu.ca>
+Installed-Size: 84
+Depends: mobilesubstrate, preferenceloader
+Filename: debs/com.jonluca.sslkillswitch2_0.14.deb
+Size: 7804
+MD5sum: 3c27dadf4b4001e87ecd141190488f2c
+SHA1: 420941a07b3d0ff378460966c23927cc1462a3a4
+SHA256: d2a43684c06856b7358f0b344727545b3eaf8bcdd0461b2752a38b176d438c6a
 Section: Tweaks
-Description: Comment, vote, and post in any location!
-Author: Jonluca
-Name: YakAnywhere
+Description: Blackbox tool to disable SSL certificate validation - including certificate pinning - within iOS and OS X Apps.
+Author: Alban Diquet <nabla.c0d3@gmail.com>
+Name: SSL Kill Switch 2
+
+Package: com.jonluca.tlskeydump
+Version: 0.0.1
+Architecture: iphoneos-arm
+Maintainer: JonLuca DeCaro <tweaks@jonlu.ca>
+Installed-Size: 228
+Depends: mobilesubstrate (>= 0.9.5000), preferenceloader (>= 2.2.3)
+Filename: debs/com.jonluca.tlskeydump_0.0.1_iphoneos-arm.deb
+Size: 10954
+MD5sum: 0801f8f8aaede1df4cffa2206666c341
+SHA1: 6adc07a3c1d80449c99301daa6e54a11484152f7
+SHA256: 3414b92e526198d966666f1d0b186ec08d121d1c20d6bf4ad04d688384c960c0
+Section: Tweaks
+Description: Dump TLS keys to /var/mobile/Documents/tlskeylog.log
+Author: JonLuca DeCaro <tweaks@jonlu.ca>
+Name: TLSKeydump
+
+Package: cycript
+Version: 0.9.594-procursus1
+Architecture: iphoneos-arm
+Maintainer: Hayden Seay <me@diatr.us>
+Pre-Depends: dpkg (>= 1.14.25-8)
+Depends: readline, adv-cmds, mobilesubstrate (>= 0.9.6300)
+Breaks: cydget (<< 0.9.4008)
+Filename: debs/cycript_0.9.594-procursus1_iphoneos-arm.deb
+Size: 1329892
+MD5sum: 5195a56714b067dc7f696a021a1f1138
+SHA1: 3f39b32d92122583ee179cb2138a9b97c4416275
+SHA256: b312a360129faee472e4b7904b3b8ba4d85761a3904b043e796b23b5f3e7146f
+Section: Development
+Priority: optional
+Description: runtime execution server and disassembler
+Tag: purpose::daemon, role::developer
+Author: Jay Freeman (saurik) <saurik@saurik.com>
+Name: Cycript
+
+Package: re.frida.server
+Version: 15.1.28
+Architecture: iphoneos-arm
+Maintainer: Ole André Vadla Ravnås <oleavr@nowsecure.com>
+Installed-Size: 55592
+Conflicts: re.frida.server64
+Filename: debs/frida_15.1.28_iphoneos-arm.deb
+Size: 15960968
+MD5sum: ca4c258b746a7431b8940fca1ff98e2c
+SHA1: dd77945d6be177b81fa24066a1b9d8afa1b893af
+SHA256: 53d901d30cc23a6816cbc41d76cf7dcd3e433a5c6dda2dadec747fb2bc3ba559
+Section: Development
+Priority: optional
+Homepage: https://www.frida.re/
+Description: Inject JavaScript to explore iOS apps over USB.
+Author: Frida Developers <oleavr@nowsecure.com>
+Name: Frida
+
+Package: re.frida.server32
+Version: 14.0.1
+Architecture: iphoneos-arm
+Maintainer: Ole André Vadla Ravnås <oleavr@nowsecure.com>
+Installed-Size: 17928
+Conflicts: re.frida.server, re.frida.server64
+Filename: debs/frida32_14.0.1_iphoneos-arm.deb
+Size: 9363872
+MD5sum: abc22018f680d25732eacb059727779f
+SHA1: 4e71a21dbafa653d10dc6fb7b31945bede62a043
+SHA256: 8ff0b07b8327e3850cace741ff87723c2ffe6d5d47908df91b50e034c21c7857
+Section: Development
+Priority: optional
+Homepage: https://www.frida.re/
+Description: Inject JavaScript to explore iOS apps over USB.
+Author: Frida Developers <oleavr@nowsecure.com>
+Name: Frida for 32-bit devices
 
