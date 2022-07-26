@@ -1,3 +1,103 @@
+Package: bzip2
+Version: 1.0.6-1
+Architecture: iphoneos-arm
+Maintainer: Sam Bingner <maintainer@sbdhi.com>
+Installed-Size: 408
+Filename: debs/bzip2.deb
+Size: 52998
+MD5sum: 35364e95f8f0223bcfb883789e3f9855
+SHA1: 07049f835a39c3db10953b1d1e079344944e0084
+SHA256: 058de1f6dd127e6929f680a7cb384c5676bd78773e6879a7eded1188a0742653
+Section: Archiving
+Priority: important
+Homepage: http://www.bzip.org/
+Description: compression that's slightly better than gzip
+
+Package: ca-certificates
+Version: 0.0.2
+Architecture: all
+Maintainer: Sam Bingner
+Depends: firmware (>= 2.0)
+Conflicts: org.thebigboss.cacerts, openssl (<< 1.0.2r)
+Replaces: org.thebigboss.cacerts
+Provides: org.thebigboss.cacerts
+Filename: debs/ca-certificates.deb
+Size: 125678
+MD5sum: a5cebe591247c5361de8911caddd8c3b
+SHA1: 54be5efc4d9ea9838a698dec2a310dce85826726
+SHA256: 16a3c7c022ac2ead80b6a6665795bf8c108541b8982087a0ba19db3e4784c046
+Section: Utilities
+Priority: optional
+Multi-Arch: foreign
+Description: CA certs for curl, wget, git.
+Tag: purpose::console, role::hacker
+Name: CA Certs
+
+Package: class-dump
+Version: 3.1.2-x-1.0.1-1
+Architecture: iphoneos-arm
+Maintainer: Sam Bingner <maintainer@sbdhi.com>
+Installed-Size: 592
+Pre-Depends: dpkg (>= 1.14.25-8)
+Filename: debs/class-dump.deb
+Size: 78376
+MD5sum: 23a65d2f02d0e1bd1f1e23a76b6f9c25
+SHA1: cf4fc8d4849a024d36e5365a9071e8943b45e875
+SHA256: 50de4c330d5dfcb269d3e53cc3ac6b256a11ad170ae9952175941528715b455b
+Section: Development
+Priority: optional
+Multi-Arch: foreign
+Homepage: http://iphone.freecoder.org/classdump_en.html
+Description: reverse engineer Objective-C headers
+Depiction: http://cydia.saurik.com/info/class-dump/
+Name: Class Dump
+
+Package: com.cannathea.afc2d-arm64
+Version: 1.1.6-1
+Architecture: iphoneos-arm
+Maintainer: BigBoss <bigboss@thebigboss.org>
+Installed-Size: 539
+Pre-Depends: dpkg (>= 1.14.25-8)
+Depends: cy+cpu.arm64, mobilesubstrate, ldid
+Conflicts: com.saurik.afc2d, net.angelxwind.afc2d-arm64, com.mrmadtw.afc2forios11, repo.feng.afc2add11, us.scw.afctwoadd, net.angelxwind.afc2ios70, afc2.25pp, afc2.25pp7, afc2.91, app.taig.afc2
+Replaces: com.saurik.afc2d, net.angelxwind.afc2d-arm64, com.mrmadtw.afc2forios11, repo.feng.afc2add11, us.scw.afctwoadd, net.angelxwind.afc2ios70, afc2.25pp, afc2.25pp7, afc2.91, app.taig.afc2
+Provides: com.saurik.afc2d, net.angelxwind.afc2d-arm64, com.mrmadtw.afc2forios11, repo.feng.afc2add11, us.scw.afctwoadd, net.angelxwind.afc2ios70, afc2.25pp, afc2.25pp7, afc2.91, app.taig.afc2
+Filename: debs/com.cannathea.afc2d-arm64.deb
+Size: 31472
+MD5sum: f008207dd606248498ec1955abfce920
+SHA1: c1fe8bef681af41f51d86c65a314a787dc89373d
+SHA256: 4299737aebd0d7b5f298b95d3ee34f8319a445af2fab19b746a16d70fffdd7e8
+Section: System
+Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=afc2kpplessDp
+Description: Allow full file-system access over USB for all arm64 devices, especially useful for those on iOS 11 and above.
+Tag: purpose::daemon
+Author: saurik, Cannathea <csupport@cannathea.com>
+Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=afc2kpplessDp
+Dev: cannathea
+Name: Apple File Conduit "2" (iOS 11+, arm64)
+Sponsor: thebigboss.org <http://thebigboss.org>
+
+Package: com.dave1482.powerapp
+Version: 6.1.1
+Architecture: iphoneos-arm
+Maintainer: dave1482 <dave1482@dave1482.com>
+Installed-Size: 1488
+Pre-Depends: firmware (>= 8.0), system-cmds, shell-cmds, coreutils
+Conflicts: com.dave1482.powerappbeta
+Filename: debs/com.dave1482.powerapp.deb
+Size: 622672
+MD5sum: a5f0a7d352e9c428e8f9888200fdcdf0
+SHA1: 4ddd44c5a56205e0a7e5fa9d0db8c128210ee3b4
+SHA256: c29ddf058752319cbfe5ca5d423912c5a6f0c42cc8bf102d1b628a38733aaeaa
+Section: Utilities
+Description: Reboot, Shutdown, Respring, go into Safemode
+Tag: purpose::uikit, compatible::ios8, compatible::ios9, compatible::ios10, compatible::ios11, compatible::ios12, compatible::ios13, compatible::ios14
+Author: dave1482 <dave1482@dave1482.com>
+Depiction: https://chariz.com/get/powerapp
+Header: https://img.chariz.cloud/sileo-banner/powerapp.jpg
+Icon: https://img.chariz.cloud/icon/powerapp/icon@3x.png
+Name: PowerApp
+
 Package: com.evilpenguin.sslbypass
 Version: 1.0-5+debug
 Architecture: iphoneos-arm
@@ -218,6 +318,49 @@ Description: Dump TLS keys to /var/mobile/Documents/tlskeylog.log
 Author: JonLuca DeCaro <tweaks@jonlu.ca>
 Name: TLSKeydump
 
+Package: com.pw5a29.speedintensifier
+Version: 10.1-1
+Architecture: iphoneos-arm
+Maintainer: BigBoss <bigboss@thebigboss.org>
+Installed-Size: 435
+Depends: mobilesubstrate, firmware (>= 6.0), preferenceloader, applist
+Filename: debs/com.pw5a29.speedintensifier.deb
+Size: 59714
+MD5sum: b5fab648c2a8491d1c92adec3a97c71e
+SHA1: 79eac57609d064dd9e8f194b163f80ae9d596928
+SHA256: 4e8f90802627c57a0c333fd1a26db099504a43eae57da9ad5630db1f72ed4d68
+Section: Tweaks
+Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=speedintensifierDp
+Description: Speeds up iOS Animations
+Tag: purpose::extension, role::enduser, compatible::ios7, compatible::ios8, compatible::ios9, compatible::ios10
+Author: pw5a29 <pw5a29@gmail.com>
+Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=speedintensifierDp
+Dev: pw5a29
+Icon: file:///Library/PreferenceBundles/SIPrefs.bundle/speed@2x.png
+Name: Speed Intensifier
+Sponsor: thebigboss.org <http://thebigboss.org>
+
+Package: com.shmoopillc.flexible
+Version: 2.1.0
+Architecture: iphoneos-arm
+Maintainer: BigBoss <bigboss@thebigboss.org>
+Installed-Size: 4920
+Depends: firmware (>= 8.0), mobilesubstrate, preferenceloader, applist
+Filename: debs/com.shmoopillc.flexible.deb
+Size: 1500592
+MD5sum: 8cf30c37dcccd39b3c53c209689a6754
+SHA1: 5db89e1f75ced6c92e7f5ec882e18e9565f63312
+SHA256: 9fa2f35b7ffa52791ca3962053122dc4e8ce24476fbaaee91011faf9438f96f3
+Section: Development
+Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=flexibleDp
+Description: Tweak to enable FLEX debugging tool
+Tag: purpose::extension, compatible::ios9, compatible::ios10, compatible::ios11, compatible::ios12
+Author: Shmoopi <shmoopillc@gmail.com>
+Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=flexibleDp
+Dev: shmoopi
+Icon: file:///Library/PreferenceBundles/FlexiblePrefs.bundle/FLEXibleIcon@2x.png
+Name: FLEXible
+
 Package: cycript
 Version: 0.9.594-procursus1
 Architecture: iphoneos-arm
@@ -237,6 +380,314 @@ Tag: purpose::daemon, role::developer
 Author: Jay Freeman (saurik) <saurik@saurik.com>
 Name: Cycript
 
+Package: flex3beta
+Version: 1:3~Beta98
+Architecture: iphoneos-arm
+Maintainer: John Coates
+Depends: mobilesubstrate, firmware (>= 12.2) | org.swift.libswift (>= 5.0), firmware (>= 9.0)
+Suggests: com.rpetrich.rocketbootstrap
+Conflicts: flexpackage, flexpackagebeta, com.fuyuchi.flex, flex2packagebeta, flex2package, com.fuyuchi.flex2, flex2blackpackagebeta, com.johncoates.flex3, flex3featurecatalog, flex3toolsonly
+Replaces: flexpackage, flexpackagebeta, com.fuyuchi.flex, flex2packagebeta, flex2package, com.fuyuchi.flex2, flex2blackpackagebeta, com.johncoates.flex3, flex3featurecatalog, flex3toolsonly
+Filename: debs/flex3beta.deb
+Size: 7521332
+MD5sum: b675980d865cabe53f212f6bcd0c1eb0
+SHA1: 578dfe8024451313ee9891cceb888c0a6d3418cc
+SHA256: 6288c2b4a8216f0767c8d2c8f55b6fabaae4e2a093524dc1426b200dc864f21d
+Section: Tweaks
+Description: Develop your own tweaks and share them on the Flex Community Cloud
+Author: John Coates
+Name: Flex 3 Beta
+
+Package: gawk
+Version: 4.2.1-1
+Architecture: iphoneos-arm
+Maintainer: Sam Bingner <maintainer@sbdhi.com>
+Installed-Size: 2952
+Pre-Depends: dpkg (>= 1.14.25-8)
+Filename: debs/gawk.deb
+Size: 340784
+MD5sum: 90586be63016dca479d364674f81a3f7
+SHA1: 56e5dfa38303ee8a6a8ccae9c506cbb210ca98fe
+SHA256: 3a1787927ba60287d4dc41ac55fea0e51a6fcf83170c5884619cd3f841e4de85
+Section: Utilities
+Priority: important
+Multi-Arch: foreign
+Homepage: http://www.gnu.org/software/gawk/
+Description: GNU's heavy-weight implementation of awk
+Name: Gawk
+
+Package: gcrypt
+Version: 1.8.3-1
+Architecture: iphoneos-arm
+Maintainer: Sam Bingner <maintainer@sbdhi.com>
+Installed-Size: 2088
+Pre-Depends: dpkg (>= 1.14.25-8)
+Depends: libgpg-error
+Filename: debs/gcrypt.deb
+Size: 423070
+MD5sum: 4a5c323274e11c97ab2bdc21c71d55e8
+SHA1: 8512adc93c06294566e31f15d8edb926dd8ea72e
+SHA256: 1bbe50ea06280066cca20789751e3f899bd43e68c93cc053bb6687d7148484c2
+Section: Security
+Priority: optional
+Multi-Arch: foreign
+Description: LGPL cryptographic algorithm library
+Name: GNU Cryptography
+
+Package: gdb
+Version: 1708
+Architecture: iphoneos-arm
+Maintainer: pancake <pancake@nopcode.org>
+Installed-Size: 12360
+Filename: debs/gdb.deb
+Size: 2917858
+MD5sum: 2c2cf0496fd36e64a0d946a6c039801c
+SHA1: ad8e553568d19909834b12c333323dc45861c55b
+SHA256: 5ae0b3040ca92f9e2c7f7be2a3635475565d0c0be459bf0e8d48b454bd607390
+Section: user/shell
+Priority: optional
+Description: GNU debugger
+ GNU Debugger for iOS build 1708 (6.3.50). Build by @osxreverser
+
+Package: grep
+Version: 3.1-1
+Architecture: iphoneos-arm
+Maintainer: Sam Bingner <maintainer@sbdhi.com>
+Installed-Size: 528
+Pre-Depends: dpkg (>= 1.14.25-8)
+Filename: debs/grep.deb
+Size: 114124
+MD5sum: 7d31d7ca37b40633c0799c5591c7c0ca
+SHA1: 302e2a99403b8757a123fb49df947283d25f6765
+SHA256: 2135c3a4ae12dbfa37f0db1f542dffd3774f70b219ccb9d23338dbba9b9c93fe
+Section: Utilities
+Priority: important
+Multi-Arch: foreign
+Homepage: http://www.gnu.org/software/grep/
+Description: searches files for regular expressions
+
+Package: inetutils
+Version: 1.9.4-2
+Architecture: iphoneos-arm
+Maintainer: Sam Bingner <maintainer@sbdhi.com>
+Installed-Size: 4064
+Pre-Depends: dpkg (>= 1.14.25-8)
+Depends: ncurses, readline
+Replaces: coreutils (<< 7.2-6)
+Provides: hostname, ping, telnet
+Filename: debs/inetutils.deb
+Size: 669988
+MD5sum: de8a7daec9d6aad25791556009d600f4
+SHA1: a2c17b4d55bd351f01deaf8307faf972aecb7934
+SHA256: af60dbf1963a500e229e38155d5d25644403cabfe549d87cfc067fbd1d9f26b4
+Section: Networking
+Priority: standard
+Homepage: http://www.gnu.org/software/inetutils/
+Description: ftp, inetd, ping, rlogin, telnet, tftp
+
+Package: libzstd1
+Version: 1.4.8-1
+Architecture: iphoneos-arm
+Maintainer: Sam Bingner <maintainer@sbdhi.com>
+Installed-Size: 1808
+Pre-Depends: dpkg (>= 1.14.25-8)
+Filename: debs/libzstd1.deb
+Size: 361468
+MD5sum: 8e4226afd612521c1a121de7fa3d7267
+SHA1: e5168adb01c20e217897576c6c486b02670b3e2b
+SHA256: a47ab85974567ba6ca7644f392e63f43aa29c9194200e35ff19782254a898538
+Section: Development
+Priority: optional
+Description: fast lossless compression algorithm
+ Zstd, short for Zstandard, is a fast lossless compression algorithm,
+ targeting real-time compression scenarios at zlib-level compression
+ ratio.
+ .
+ This package contains the shared library.
+
+Package: lsof
+Version: 33-1
+Architecture: iphoneos-arm
+Maintainer: Sam Bingner <maintainer@sbdhi.com>
+Installed-Size: 304
+Pre-Depends: dpkg (>= 1.14.25-8)
+Depends: ncurses
+Filename: debs/lsof.deb
+Size: 52350
+MD5sum: 5a027563a2207a70623b6e52340d1e93
+SHA1: 5e9ada439413a98471c05f75b5408db4945419b8
+SHA256: 22ef6839ee7795b3a6b7dcf402f9814e78c4d5d7f0cb056cef209bf016b058ad
+Section: Administration
+Priority: standard
+Multi-Arch: foreign
+Description: shows what files programs have open
+
+Package: lz4
+Version: 1.7.5-1
+Architecture: iphoneos-arm
+Maintainer: Sam Bingner <maintainer@sbdhi.com>
+Installed-Size: 1032
+Pre-Depends: dpkg (>= 1.14.25-8)
+Filename: debs/lz4.deb
+Size: 138316
+MD5sum: 10c5fd2af851c7c543e23b9e15dce511
+SHA1: 73827cf28a484b16868050335f67708b30553d64
+SHA256: dbbbd71177798c0b0e2c409579d5004ba4a2616615a1c745a16107671de88e06
+Section: Archiving
+Priority: important
+Multi-Arch: foreign
+Homepage: http://tukaani.org/lzma/
+Description: Extremely Fast Compression algorithm
+Name: LZ4
+
+Package: lzma
+Version: 2:4.32.7-2
+Architecture: iphoneos-arm
+Maintainer: Sam Bingner <maintainer@sbdhi.com>
+Installed-Size: 736
+Conflicts: com.mc.xz
+Filename: debs/lzma.deb
+Size: 71910
+MD5sum: 3fb3d89e5b13b0e0ad1275e852a03d49
+SHA1: 5847284c93248af999e2cb390e2db53089d2dd54
+SHA256: eb48894b66ecc09d378fc79f1ad1489d5975d5735e9ff42f1d4994f19b425541
+Section: Archiving
+Priority: important
+Homepage: http://tukaani.org/lzma/
+Description: slower, but better, compression algorithm
+Name: LZMA Utils
+
+Package: openssh
+Version: 8.4-2
+Architecture: iphoneos-arm
+Maintainer: Sam Bingner <maintainer@sbdhi.com>
+Installed-Size: 8
+Pre-Depends: dpkg (>= 1.14.25-8)
+Depends: libssl1.1.1, openssh-server, openssh-client, openssh-global-listener
+Filename: debs/openssh.deb
+Size: 1260
+MD5sum: 5c7f2661e180ccd380d0354c23b9be14
+SHA1: fb3fa176f03ab0e95da1dda25a5db3a3e7afb707
+SHA256: fcf4ec55e2f75ae194862394f6a55237c3dd68db418a8b8e5c88abdfc50b458b
+Section: Networking
+Priority: important
+Description: secure shell (SSH) server, for secure access from remote machines
+ This is the portable version of OpenSSH, a free implementation of the
+ Secure Shell protocol as specified by the IETF secsh working group.
+ .
+ Ssh (Secure Shell) is a program for logging into a remote machine and
+ for executing commands on a remote machine.  It provides secure
+ encrypted communications between two untrusted hosts over an insecure
+ network. X11 connections and arbitrary TCP/IP ports can also be
+ forwarded over the secure channel.  It can be used to provide
+ applications with a secure communication channel.
+ .
+ This package provides the sshd server.
+ .
+ In some countries it may be illegal to use any encryption at all
+ without a special permit.
+Depiction: http://cydia.saurik.com/info/openssh/
+Name: OpenSSH
+
+Package: openssh-client
+Version: 8.4-2
+Architecture: iphoneos-arm
+Maintainer: Sam Bingner <maintainer@sbdhi.com>
+Installed-Size: 8960
+Pre-Depends: dpkg (>= 1.14.25-8)
+Depends: libssl1.1.1
+Breaks: openssh (<= 8.4-1)
+Filename: debs/openssh-client.deb
+Size: 1616806
+MD5sum: 7fb1cafde1f12497b66efcb578d21293
+SHA1: ba282ae1599903bb6a4367b9487678e716243cf7
+SHA256: aa4c232bc2e3c374373b8c1001dadd8fa9a1254b8b37aecc12a0a0f485db62bf
+Section: Networking
+Priority: important
+Description: secure shell (SSH) client, for secure access to remote machines
+ This is the portable version of OpenSSH, a free implementation of the
+ Secure Shell protocol as specified by the IETF secsh working group.
+ .
+ Ssh (Secure Shell) is a program for logging into a remote machine and
+ for executing commands on a remote machine.  It provides secure
+ encrypted communications between two untrusted hosts over an insecure
+ network. X11 connections and arbitrary TCP/IP ports can also be
+ forwarded over the secure channel.  It can be used to provide
+ applications with a secure communication channel.
+ .
+ This package provides the client binaries.
+ .
+ In some countries it may be illegal to use any encryption at all
+ without a special permit.
+Depiction: http://cydia.saurik.com/info/openssh/
+Name: OpenSSH Clients
+
+Package: openssh-global-listener
+Version: 8.4-2
+Architecture: iphoneos-arm
+Maintainer: Sam Bingner <maintainer@sbdhi.com>
+Installed-Size: 32
+Pre-Depends: dpkg (>= 1.14.25-8)
+Depends: libssl1.1.1, openssh-server (>= 8.4)
+Breaks: openssh (<= 8.4-1)
+Filename: debs/openssh-global-listener.deb
+Size: 1796
+MD5sum: 969fa0025025376c99ba03eb6e9857d6
+SHA1: 237bfe7d8d88854aa9d76b06e6e971dd6badc284
+SHA256: c77c83d00c62fd757f869ff72fe0e286f650730992a118ceca5192970e0e163f
+Section: Networking
+Priority: important
+Description: secure shell (SSH) server, for secure access from remote machines
+ This is the portable version of OpenSSH, a free implementation of the
+ Secure Shell protocol as specified by the IETF secsh working group.
+ .
+ Ssh (Secure Shell) is a program for logging into a remote machine and
+ for executing commands on a remote machine.  It provides secure
+ encrypted communications between two untrusted hosts over an insecure
+ network. X11 connections and arbitrary TCP/IP ports can also be
+ forwarded over the secure channel.  It can be used to provide
+ applications with a secure communication channel.
+ .
+ This package provides a global listener on port 22.
+ .
+ In some countries it may be illegal to use any encryption at all
+ without a special permit.
+Depiction: http://cydia.saurik.com/info/openssh/
+Name: OpenSSH Global Listener
+
+Package: openssh-server
+Version: 8.4-2
+Architecture: iphoneos-arm
+Maintainer: Sam Bingner <maintainer@sbdhi.com>
+Installed-Size: 1880
+Pre-Depends: dpkg (>= 1.14.25-8)
+Depends: libssl1.1.1, openssh-client (>= 8.4)
+Breaks: openssh (<= 8.4-1)
+Filename: debs/openssh-server.deb
+Size: 403698
+MD5sum: acc1d61d2104ec82451d6ebea3930719
+SHA1: ac788f56e1c46866815bb12403b4aa3531f88356
+SHA256: 469f09167c9c2d4271738894509cf2f090a2c1400d055580a83b401e0b5a8c8f
+Section: Networking
+Priority: important
+Description: secure shell (SSH) server, for secure access from remote machines
+ This is the portable version of OpenSSH, a free implementation of the
+ Secure Shell protocol as specified by the IETF secsh working group.
+ .
+ Ssh (Secure Shell) is a program for logging into a remote machine and
+ for executing commands on a remote machine.  It provides secure
+ encrypted communications between two untrusted hosts over an insecure
+ network. X11 connections and arbitrary TCP/IP ports can also be
+ forwarded over the secure channel.  It can be used to provide
+ applications with a secure communication channel.
+ .
+ This package provides the sshd server.
+ .
+ In some countries it may be illegal to use any encryption at all
+ without a special permit.
+Depiction: http://cydia.saurik.com/info/openssh/
+Name: OpenSSH Server Binaries
+
 Package: re.frida.server
 Version: 15.1.28
 Architecture: iphoneos-arm
@@ -248,6 +699,24 @@ Size: 15960968
 MD5sum: ca4c258b746a7431b8940fca1ff98e2c
 SHA1: dd77945d6be177b81fa24066a1b9d8afa1b893af
 SHA256: 53d901d30cc23a6816cbc41d76cf7dcd3e433a5c6dda2dadec747fb2bc3ba559
+Section: Development
+Priority: optional
+Homepage: https://www.frida.re/
+Description: Inject JavaScript to explore iOS apps over USB.
+Author: Frida Developers <oleavr@nowsecure.com>
+Name: Frida
+
+Package: re.frida.server
+Version: 15.2.2
+Architecture: iphoneos-arm
+Maintainer: Ole André Vadla Ravnås <oleavr@nowsecure.com>
+Installed-Size: 55608
+Conflicts: re.frida.server64
+Filename: debs/re.frida.server.deb
+Size: 24763782
+MD5sum: 954ac63810fc0e4cb8a8f716748dee09
+SHA1: 7a8b710bc0ebf721fc72bb2eb2a8b721e4d1c7bb
+SHA256: d91a801f9fb2ab7dff8c5ba84dfd6d532255cb8ec0a42d911b9c33e82e647259
 Section: Development
 Priority: optional
 Homepage: https://www.frida.re/
@@ -272,4 +741,76 @@ Homepage: https://www.frida.re/
 Description: Inject JavaScript to explore iOS apps over USB.
 Author: Frida Developers <oleavr@nowsecure.com>
 Name: Frida for 32-bit devices
+
+Package: sqlite3
+Version: 3.24.0-1
+Architecture: iphoneos-arm
+Maintainer: Sam Bingner <maintainer@sbdhi.com>
+Installed-Size: 4304
+Pre-Depends: dpkg (>= 1.14.25-8)
+Replaces: sqlite3 (<= 3.5.9-11)
+Filename: debs/sqlite3.deb
+Size: 928716
+MD5sum: 1790609a2e17dd086a7b59b3e61dfaeb
+SHA1: 3bdefcd75516604195700d5cf720e32ddfbffe3a
+SHA256: 8c645f2c2a31d3b4b70e8ccc521b9f93ab4a5d2f770bbe42a2b604242596b1e6
+Section: Data_Storage
+Priority: standard
+Description: embedded database used by iPhoneOS
+Name: SQLite 3.x
+
+Package: sudo
+Version: 1.8.27-4
+Architecture: iphoneos-arm
+Maintainer: Sam Bingner <maintainer@sbdhi.com>
+Installed-Size: 2736
+Pre-Depends: dpkg (>= 1.14.25-8)
+Filename: debs/sudo.deb
+Size: 459016
+MD5sum: e0230c230b0b1560352fde0c52fe81f3
+SHA1: c4a80056216ffe892d5e76a3977325433d0f56db
+SHA256: a68055572f92893a9b39124396d7618a7eadea9e4df9953398412b7e98d10c74
+Section: Administration
+Priority: standard
+Description: temporarily assume root priviledges
+Conffiles:
+ /etc/sudoers b679ac5d1611aa9ca815224b457b2341
+Name: Sudo
+
+Package: tor
+Version: 0.2.2.35-1
+Architecture: iphoneos-arm
+Maintainer: pancake <pancake@nopcode.org>
+Installed-Size: 6666
+Depends: libevent
+Filename: debs/tor.deb
+Size: 2225592
+MD5sum: 444b36a168e05241ff75830637b04a04
+SHA1: d878eb2f218b763f1b88f7d8cb40cd5ec37e1a1f
+SHA256: 60b9a1706b859a91be05b9991fa928c2e03c095cedaffd003b540f44200a7dce
+Section: user/shell
+Priority: optional
+Description: Anonymizing overlay network
+ Tor is free software and an open network that helps you defend against a form of network surveillance that threatens personal freedom and privacy, confidential business activities and relationships, and state security known as traffic analysis.
+
+Package: zstd
+Version: 1.4.8-1
+Architecture: iphoneos-arm
+Maintainer: Sam Bingner <maintainer@sbdhi.com>
+Installed-Size: 2040
+Pre-Depends: dpkg (>= 1.14.25-8)
+Depends: libzstd1
+Filename: debs/zstd.deb
+Size: 417970
+MD5sum: 4465f616fb9d483d8f4abd442a45cd3d
+SHA1: b96b8ddec0d470846343d0635471517a078257d1
+SHA256: acc3b2fb524d2de68dd82f1f7c972aa5ef2caab4761b4b4c6e524a69178bc4d3
+Section: Development
+Priority: optional
+Description: fast lossless compression algorithm - CLI tool
+ Zstd, short for Zstandard, is a fast lossless compression algorithm,
+ targeting real-time compression scenarios at zlib-level compression
+ ratio.
+ .
+ This package contains the CLI program implementing zstd.
 
