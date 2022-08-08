@@ -318,6 +318,22 @@ Description: Dump TLS keys to /var/mobile/Documents/tlskeylog.log
 Author: JonLuca DeCaro <tweaks@jonlu.ca>
 Name: TLSKeydump
 
+Package: com.jonluca.tlskeydump
+Version: 0.0.2
+Architecture: iphoneos-arm
+Maintainer: JonLuca DeCaro <tweaks@jonlu.ca>
+Installed-Size: 164
+Depends: mobilesubstrate (>= 0.9.5000), preferenceloader (>= 2.2.3)
+Filename: debs/com.jonluca.tlskeydump_0.0.2_iphoneos-arm.deb
+Size: 11906
+MD5sum: 27b00529b86fbe608cc42ed754cf002e
+SHA1: 07b543798b604712ae9f8d305b70a468929f068b
+SHA256: fc2bc6904ccf8fdaad4d8950f200d5c74bdb17378e0830d2c772f2d8377f7ce2
+Section: Tweaks
+Description: Dump TLS keys to /var/mobile/Documents/tlskeylog.log
+Author: JonLuca DeCaro <tweaks@jonlu.ca>
+Name: TLSKeydump
+
 Package: com.pw5a29.speedintensifier
 Version: 10.1-1
 Architecture: iphoneos-arm
